@@ -1,6 +1,5 @@
 import { IJoke } from "models/IJoke";
 
-
 export interface JokeState {
   jokes: IJoke[];
 }
@@ -19,6 +18,4 @@ interface fetchJokeSuccessAction {
   payload: IJoke;
 }
 
-export type JokeAction = 
-  | fetchJokeAction
-  | fetchJokeSuccessAction;
+export type JokeAction = fetchJokeAction | fetchJokeSuccessAction;

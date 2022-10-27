@@ -3,4 +3,4 @@ import { jokeReducer } from "./jokeReducer";
 
 export const rootReducer = combineReducers({
   jokeReducer,
-})
+});

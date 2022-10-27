@@ -9,6 +9,7 @@ const Button: FC = () => {
     <button 
       className="chuck-button"
       onClick={fetchJoke}
+      type="button"
     >
       <span>
         MORE!!!

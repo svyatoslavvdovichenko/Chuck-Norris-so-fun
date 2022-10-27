@@ -1,6 +1,6 @@
 import { IJoke } from "models/IJoke";
 
-export interface JokeState {
+export interface IJokeState {
   jokes: IJoke[];
 }
 
@@ -9,13 +9,13 @@ export enum JokeActionTypes {
   FETCH_JOKE_SUCCESS = "FETCH_JOKE_SUCCESS",
 }
 
-export interface fetchJokeAction {
+export interface IFetchJokeAction {
   type: JokeActionTypes.FETCH_JOKE;
 }
 
-interface fetchJokeSuccessAction {
+interface IFetchJokeSuccessAction {
   type: JokeActionTypes.FETCH_JOKE_SUCCESS;
   payload: IJoke;
 }
 
-export type JokeAction = fetchJokeAction | fetchJokeSuccessAction;
+export type JokeAction = IFetchJokeAction | IFetchJokeSuccessAction;

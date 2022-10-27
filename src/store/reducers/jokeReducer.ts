@@ -1,10 +1,10 @@
-import { JokeState, JokeActionTypes, JokeAction } from "types/joke";
+import { IJokeState, JokeActionTypes, JokeAction } from "types/joke";
 
-const initialState: JokeState = {
+const initialState: IJokeState = {
   jokes: JSON.parse(localStorage.getItem("jokes")!) || [],
 };
 
-export const jokeReducer = (state = initialState, action: JokeAction): JokeState => {
+export const jokeReducer = (state = initialState, action: JokeAction): IJokeState => {
   switch (action.type) {
     case JokeActionTypes.FETCH_JOKE:
       return { ...state };

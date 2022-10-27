@@ -11,7 +11,7 @@ const Main: FC = () => {
       <Button />
       
       {jokes.map((joke) => (
-        <div key={joke.id} className="main__plit">
+        <div key={joke.id} className="main-plit">
           {joke.value}
         </div>
       ))}

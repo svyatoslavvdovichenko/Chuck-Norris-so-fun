@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Chuck-Norris-so-fun/static/css/main.30c8bbbe.css",
-    "main.js": "/Chuck-Norris-so-fun/static/js/main.1ad795ac.js",
+    "main.css": "/Chuck-Norris-so-fun/static/css/main.92cad0ce.css",
+    "main.js": "/Chuck-Norris-so-fun/static/js/main.51e280d4.js",
     "index.html": "/Chuck-Norris-so-fun/index.html",
-    "main.30c8bbbe.css.map": "/Chuck-Norris-so-fun/static/css/main.30c8bbbe.css.map",
-    "main.1ad795ac.js.map": "/Chuck-Norris-so-fun/static/js/main.1ad795ac.js.map"
+    "main.92cad0ce.css.map": "/Chuck-Norris-so-fun/static/css/main.92cad0ce.css.map",
+    "main.51e280d4.js.map": "/Chuck-Norris-so-fun/static/js/main.51e280d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.30c8bbbe.css",
-    "static/js/main.1ad795ac.js"
+    "static/css/main.92cad0ce.css",
+    "static/js/main.51e280d4.js"
   ]
 }
